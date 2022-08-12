@@ -18,7 +18,7 @@ class DemoApplicationTests {
 
     @Test
     void contextLoads() {
-        userService.save();
+        userService.save(new User());
         User byId = userMapper.getById(1);
         System.out.println(byId);
     }

@@ -5,3 +5,5 @@ spring:
     username: root
     password: Mjb0926@mysql
     type: com.alibaba.druid.pool.DruidDataSource
+server:
+  port: 80
